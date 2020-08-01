@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/13-vuejs/.idea/13-vuejs.iml" filepath="D:/13-vuejs/.idea/13-vuejs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/7.19.iml" filepath="$PROJECT_DIR$/.idea/7.19.iml" />
+      <module fileurl="file://D:/7.22/.idea/7.22.iml" filepath="D:/7.22/.idea/7.22.iml" />
+      <module fileurl="file://D:/min-3/.idea/min-3.iml" filepath="D:/min-3/.idea/min-3.iml" />
+    </modules>
+  </component>
+</project>

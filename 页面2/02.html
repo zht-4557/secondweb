@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="bxslider-4-master/bxslider-4-master/dist/jquery.bxslider.css"/>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    .header{
+      background-color: aliceblue;
+      height: 50px;
+      width: 1000px;
+      margin: 0 auto;
+      line-height: 50px;
+    }
+    .header .c1{
+      float: left;
+      color: cornflowerblue;
+      margin-left: 10px;
+    }
+    .header .c2{
+      float: right;
+      padding-right: 25px;
+      width:200px;
+      height:30px;
+    }
+    .body{
+      background-color: white;
+      width: 1000px;
+      height: 60px;
+      color: black;
+      line-height: 60px;
+      margin: 0 auto;
+      border-left: 1px solid grey;
+      border-right: 1px solid grey;
+      border-bottom: 1px solid grey;
+
+    }
+    .body .c3{
+      padding-left: 45px;
+    }
+    .body .c3:hover{
+      background-color: antiquewhite;
+    }
+    .content{
+      width: 1000px;
+      height: 690px;
+      margin: 0 auto;
+      border: 1px solid blueviolet;
+    }
+    .content .a{
+      width: 580px;
+      height: 800px;
+      float: left;
+      border-left: 1px solid gray;
+    }
+    .content .a .b .c{
+      width: 580px;
+      height: 250px;
+    }
+    .content .a .b .c .d{
+      width: 190px;
+      height: 180px;
+      float: left;
+      padding-right: 2px;
+
+
+    }
+    .content .a .b .c .d img{
+      width: 190px;
+      height: 120px;
+
+    }
+    .content .c5{
+      width: 410px;
+      height: 800px;
+      line-height: px;
+      float: right;
+    }
+    .content .c5 .c6{
+      height: 170px;
+      width: 410px;
+      border-bottom: 1px solid gray;
+      background-image: url(11.jpg);
+
+
+    }
+    .content .c5 .c6 .c7{
+      display: block;
+      margin-bottom: 5px;
+
+
+    }
+    .content .c5 .c6 .c7:hover{
+      background-color: dimgray;
+    }
+
+  </style>
+</head>
+<body>
+<span class="glyphicon glyphicon-hand-left" aria-hidden="true"></span>
+  <div class="header">
+    <div class="c1">热点新闻
+      <span style="color: darkgray; padding-left:30px ;">合阳  19度  多云转晴</span>
+      <span style="color: cornflowerblue; padding-left: 200px;">更多资讯</span>
+    </div>
+    <div class="c2">
+      <input type="text" value="请输入关键字" style="border-radius: 25px;width:180px;height:30px;"/>
+    </div>
+  </div>
+  <div class="body">
+    <a class="c3" >头条</a> <a class="c3" >财经</a> <a class="c3" >生活</a>
+    <a class="c3" >历史</a> <a class="c3" >社会</a> <a class="c3" >体育</a>
+    <a class="c3" >奇闻</a> <a class="c3" >游戏</a> <a class="c3" >健康</a>
+    <a class="c3" >精选</a> <a class="c3" >推荐</a> <a class="c3" >视频</a>
+  </div>
+  <div class="content">
+    <div class="a">
+      <div class="b" style="width: 580px;height: 900px;">
+        <div style="width: 580px;height: 250px;">
+          <ul class="bxslider">
+            <li><img src="2.jpg" style="width: 580px;height: 250px;"/></li>
+            <li><img src="3.jpg" style="width: 580px;height: 250px;"/></li>
+            <li><img src="timg (1).jpg" style="width: 580px;height: 250px;"/></li>
+          </ul>
+        </div>
+        <div style="width: 580px;height: 50px;background-color: white ; color: black;
+                  line-height: 50px;text-align: center;margin-top: 0;font-size: 25px;">
+          <a href="02.html"  style="text-decoration: none;color: black;"></a>
+        </div>
+        <div class="c">
+          <div class="d">
+            <img src="3.jpg"style="margin-right: 6px;"/>
+            <div  style="width: 188px;height: 30px;background-color:#b9def0; color: black;
+                          line-height: 30px;text-align: center;
+                          ">
+              <a href="#" style="text-decoration: none;color:black">张雨绮开场首秀”顺拐“</a>
+            </div>
+          </div>
+          <div class="d">
+            <img src="4.jpg" style="margin-right: 6px;"/>
+            <div  style="width: 188px;height: 30px;background-color:#b9def0;color: black;
+                          line-height: 30px;text-align: center;margin-top: 0;">
+              <a href="#" style="text-decoration: none;color:black">张含韵哪吒头惊艳众人</a>
+            </div>
+          </div>
+          <div class="d">
+            <img src="5.jpg"/>
+            <div  style="width: 188px;height: 30px;background-color:#b9def0;; color: black;
+                          line-height: 30px;text-align: center;margin-top: 0;">
+              <a href="#" style="text-decoration: none;color:black">蓝盈莹首秀第一</a>
+            </div>
+          </div>
+          <div class="d">
+            <img src="6.jpg"/>
+            <div  style="width: 188px;height: 30px;background-color:#b9def0;; color: black;
+                          line-height: 30px;text-align: center;margin-top: 0;">
+              <a href="#" style="text-decoration: none;color:black">第一次公演</a>
+            </div>
+          </div>
+          <div class="d">
+            <img src="7.jpg"/>
+            <div  style="width: 188px;height: 30px;background-color:#b9def0;; color: black;
+                          line-height: 30px;text-align: center;margin-top: 0;">
+              <a href="#" style="text-decoration: none;color:black">大碗宽面</a>
+            </div>
+          </div>
+          <div class="d">
+            <img src="8.jpg"/>
+            <div  style="width: 188px;height: 30px;background-color:#b9def0;; color: black;
+                          line-height: 30px;text-align: center;margin-top: 0;">
+              <a href="#" style="text-decoration: none;color:black">beautiful love</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="c5">
+        <div class="c6">
+          <h2 style="margin-top: 0;color: black; line-height: 170px;text-align:center; background-color: #eeeeee;
+            background-image: url(12.jpg) ;"><em>小张带你了解今日趣闻</em></h2>
+          <div class="c6">
+            <h2 style="margin-top: 0; color: dodgerblue;"><em>今日微博热搜</em></h2>
+            <a class="c7" href="#" style="text-decoration: none;color:black">特朗普称将恢复白宫每日疫情简报会</a>
+            <a class="c7" href="#" style="text-decoration: none;color:black">黄河出现2020年第二号洪水</a>
+            <a class="c7" href="#" style="text-decoration: none;color:black">哈大两名大四学生因作弊被开除</a>
+            <a class="c7" href="#" style="text-decoration: none;color:black">我国最大规模5G智能电网建成</a>
+          </div>
+
+          <div class="c6">
+            <h2 style="margin-top: 0; color: dodgerblue;"><em>和小张来聊聊姐姐那些事</em></h2>
+            <a class="c7" href="05.html" style="text-decoration: none;color:black">蓝盈莹称自己是硬邦邦的人</a>
+            <a class="c7" href="#" style="text-decoration: none;color:black">宁静问王菲菲今年贵庚</a>
+            <a class="c7" href="#" style="text-decoration: none;color:black">伊能静为金莎教恋爱聊天技巧</a>
+            <a class="c7" href="#" style="text-decoration: none;color:black">复活赛中你最希望看到哪位姐姐</a>
+            <a class="c7" href="#" style="text-decoration: none;color:black">张雨绮为张含韵提供展现个人能力的机会</a>
+
+          </div>
+          <div class="c6">
+            <h2 style="margin-top: 0; color: dodgerblue;"><em>走过2019，IT圈发生了哪些事？</em></h2>
+            <a class="c7" href="05.html" style="text-decoration: none;color:black">5G商用牌照正式发放</a>
+            <a class="c7" href="#" style="text-decoration: none;color:black">英特尔推出第十代酷睿处理器</a>
+            <a class="c7" href="#" style="text-decoration: none;color:black">华为开发“新物种”对决苹果iPad Pro</a>
+            <a class="c7" href="#" style="text-decoration: none;color:black"> 国际WI-FI联盟发布WI-F16标准</a>
+            <a class="c7" href="#" style="text-decoration: none;color:black"> 中国电竞的黄金时代到来</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script src="jquery-3.5.1.min.js"></script>
+  <script src="bxslider-4-master/bxslider-4-master/dist/jquery.bxslider.js"></script>
+  <script>
+    $(function(){
+      $('.bxslider').bxSlider();
+    });
+  </script>
+</body>
+</html>
